@@ -1,5 +1,5 @@
 # Virtual-Environment-Cheat-Sheet
-This contains commands to operate virtual environment.
+This contains commands to operate the Virtual Environment.
 <body>
   <h2>Install Virtual Environment</h2>
   <p>
@@ -12,7 +12,7 @@ This contains commands to operate virtual environment.
     python -m venv venv or &lt;env_name&gt; --system-site-packages
     <h3>Activate Virtual Environment</h3>
     venv\Script\activate.bat (Windows)<br>
-    source env/bin/activate (Linux)
+    source env/bin/activate (Linux/Mac)
     <h3>List Pachages </h3>
     pip list
     <h3>List Pachages of virtual environment only</h3>
@@ -25,5 +25,8 @@ This contains commands to operate virtual environment.
     pip freeze --local > requirements.txt
     <h3>Install packages from the requirements file</h3>
     pip install -r requirements.txt
+    <h3>Delete Virtual Environment</h3>
+    rmdir /s /q venv (Windows)<br>
+    rm -rf venv (Linux/Mac)
   </p>
 </body>
