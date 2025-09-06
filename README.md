@@ -2,7 +2,7 @@
 This contains commands to operate the Virtual Environment.
 <body>
   <h2>Install Virtual Environment</h2>
-  <p>
+  <p style="color: green;">
     pip install virtualenv
     <h3>or for Linux</h3>
     sudo apt install python3.10-venv
