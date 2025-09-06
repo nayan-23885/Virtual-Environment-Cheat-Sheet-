@@ -6,5 +6,9 @@ This contains commands to operate virtual environment.
   </h1>
   <p>
     pip install virtualenv
+    <br>
+    or for Linux
+    <br>
+    sudo apt install python3.10-venv
   </p>
 </body>
