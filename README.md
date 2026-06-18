@@ -12,7 +12,7 @@ This contains commands to operate the Virtual Environment.
     python -m venv venv or &lt;env_name&gt; --system-site-packages
     <h2>Activate Virtual Environment</h2>
     venv\Script\activate.bat (Windows)<br>
-    source env/bin/activate (Linux/Mac)
+    source venv/bin/activate (Linux/Mac)
     <h2>List Pachages </h2>
     pip list
     <h2>List Pachages of virtual environment only</h2>
